@@ -1,0 +1,22 @@
+{
+  "concesionario": [
+    {
+      "id": "001",
+      "disponible": true,
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "año": 2023,
+      "precio": 24500,
+      "moneda": "EUR"
+    },
+    {
+      "id": "002",
+      "disponible": false,
+      "marca": "Ford",
+      "modelo": "Mustang GT",
+      "año": 2022,
+      "precio": 56000,
+      "moneda": "USD"
+    }
+  ]
+}

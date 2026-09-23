@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<concesionario>
+        
+    
+    <coche disponible="true" id="001">
+                
+        <marca>Toyota</marca>
+                
+        <modelo>Corolla</modelo>
+                
+        <año>2023</año>
+                
+        <precio moneda="EUR">24500</precio>
+                
+        <motor tipo="hibrido">
+                        
+            <cilindrada>1.8</cilindrada>
+                        
+            <potencia unidad="cv">140</potencia>
+                    
+        </motor>
+                
+        <equipamiento>
+                        
+            <extra>Cámara de visión trasera</extra>
+                        
+            <extra>Control de crucero adaptativo</extra>
+                        
+            <extra>Conectividad Apple CarPlay / Android Auto</extra>
+                    
+        </equipamiento>
+            
+    </coche>
+        
+    <coche disponible="false" id="002">
+                
+        <marca>Ford</marca>
+                
+        <modelo>Mustang GT</modelo>
+                
+        <año>2022</año>
+                
+        <precio moneda="USD">56000</precio>
+                
+        <motor tipo="gasolina">
+                        
+            <cilindrada>5.0</cilindrada>
+                        
+            <potencia unidad="cv">450</potencia>
+                    
+        </motor>
+                
+        <equipamiento>
+                        
+            <extra>Asientos de cuero calefactables</extra>
+                        
+            <extra>Sistema de sonido Premium</extra>
+                        
+            <extra>Frenos Brembo</extra>
+                    
+        </equipamiento>
+            
+    </coche>
+    
+    <coche disponible="false" id="12">
+        <marca>Renault</marca>
+        <modelo>Scenic</modelo>
+        <año>2008</año>
+        <precio moneda="EUR">14000</precio>
+    </coche>
+</concesionario>
