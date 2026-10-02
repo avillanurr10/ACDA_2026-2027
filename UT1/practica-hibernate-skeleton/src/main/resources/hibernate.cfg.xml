@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-configuration>
+    <session-factory>
+        <!-- Configuración de conexión JDBC a MySQL local (Puerto 3308) -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3308/centro_db_mysql?createDatabaseIfNotExist=true</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">root</property>
+
+        <!-- Dialecto SQL nativo para MySQL -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <!-- Propiedades del ciclo de vida y logs de sentencias -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+
+        <!-- Registro de entidades mapeadas por Hibernate -->
+        <mapping class="com.centro.modelo.Profesor"/>
+        <mapping class="com.centro.modelo.Modulo"/>
+        <mapping class="com.centro.modelo.Alumno"/>
+    </session-factory>
+</hibernate-configuration>
